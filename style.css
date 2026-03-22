@@ -286,6 +286,28 @@ header .navbar {
     font-size: var(--font-size-m);
 }
 
+/* Testimonials section styling */
+.testimonials-section {
+    padding: 50px 0 100px;
+    background: var(--light-pink-color);
+}
+
+.testimonials-section .testimonial {
+    display: flex;
+    padding: 35px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-section .testimonial .user-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 50px;
+    border-radius: var(--border-radius-circle);
+}
+
 /* Código de consulta de mídia responsivo para largura máxima de 1024px */
 @media screen and (max-width: 1024px) {
     .menu-section .menu-list {
@@ -403,6 +425,7 @@ header .navbar {
     }
 }
 
+/* Código de consulta de mídia responsivo para largura máxima de 640px */
 @media screen and (max-width: 640px) {
     .menu-section .menu-list .menu-item {
         width: 100%;
